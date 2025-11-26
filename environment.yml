@@ -1,0 +1,23 @@
+name: employee_attrition
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - scipy
+  - statsmodels
+  - pip:
+      - imbalanced-learn
+      - xgboost
+      - shap
+      - jupyterlab
+      - joblib
+      - plotly
+      - streamlit
+      - flask
